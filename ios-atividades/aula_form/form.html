@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário de contato</h1>
+    <form action="#" method="post">
+
+        <!--LEGENDA PARA NOME-->
+        <label for="Nome"> Nome:</label> 
+
+        <!--CAMPO INPUT TYPE TEXT-->
+        <input type="text" id="Nome" name="Nome" placeholder="Digite seu nome completo" required>
+        
+        <br><br>
+        
+        <!-- LEGENDA PARA EMAIL -->
+        <label for="E-mail"> E-mail:</label>
+
+        <!--CAMPO INPUT TYPE EMAIL-->
+        <input type="email" id="E-mail" name="E-mail" placeholder="Digite seu E-mail" required>
+        
+        <br><br>
+
+        <!--LEGENDA PARA SENHA-->
+        <label for="Senha"> Senha:</label>
+
+        <!--CAMPO INPUT TYPE PASSWORD-->
+        <input type="password" id="Senha" name="Senha" placeholder="Digite sua senha" required>
+        
+        <br><br>
+
+        <!--LEGENDA PARA MENSAGEM-->
+        <h2>Mensagem</h2>
+
+        <!--AREA DE TEXTO PARA MENSAGEM-->
+        <textarea id="Mensagem" name="Mensagem" rows="15" cols="35" placeholder="Escreva uma observação"></textarea>
+
+        <!--AREA GÊNERO-->
+        <p>Gênero:</p>
+
+        <!--CAMPO INPUT TYPE RADIO MASCULINO-->        
+        <input type="radio" id="Masculino" name="Gênero" value="Masculino">
+
+        <!--LEGENDA PARA RADIO MASCULINO-->
+        <label for="Masculino"> Masculino</label>
+        
+        <br>
+
+        <!-- CAMPO INPUT TYPE RADIO FEMININO-->
+        <input type="radio" id="Feminino" name="Gênero" value="Feminino">
+
+        <!--LEGENDA PARA RADIO FEMININO-->
+        <label for="Feminino"> Feminino</label>
+        
+        <br>
+
+        <!-- CAMPO INPUT TYPE RADIO OUTRO-->
+        <input type="radio" id="Outro" name="Gênero" value="Outro">
+
+        <!--LEGENDA PARA RADIO OUTRO-->
+        <label for="Outro"> Outro</label>
+
+        <p>Interesses</p>
+
+        <!--CAMPO INPUT TYPE CHECKBOX HTML-->
+        <input type="checkbox" id="HTML" name="Interesses" value="HTML">
+
+        <!--LEGENDA PARA CHECKBOX HTML-->
+        <label for="HTML"> HTML</label>
+        
+        <br>
+
+        <!--CAMPO INPUT TYPE CHECKBOX CSS-->
+        <input type="checkbox" id="CSS" name="Interesses" value="CSS">
+
+        <!--LEGENDA PARA CHECKBOX CSS-->
+        <label for="CSS"> CSS</label><br>
+
+
+        <!--CAMPO INPUT TYPE CHECKBOX JAVASCRIPT-->
+        <input type="checkbox" id="JavaScript" name="Interesses" value="JavaScript">
+
+        <!--LEGENDA PARA CHECKBOX JAVASCRIPT-->
+        <label for="JavaScript"> JavaScript</label>
+        
+        <br><br>
+
+        <!--LEGENDA PARA SELECT ESTADO-->
+        <label for="Cidade"> Estado</label><br>
+
+        <!--CAMPO SELECT CIDADE-->
+        <select id="Cidade" name="Cidade">
+            <option selected disabled value=""> Selecione</option>
+            <option value="SP"> São Paulo</option>
+            <option value="RJ"> Rio de Janeiro</option>
+            <option value="BH"> Belo Horizonte</option>
+            <option value="MG"> Minas Gerais</option>
+            <option value="BA"> Bahia</option>
+        </select><br><br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>

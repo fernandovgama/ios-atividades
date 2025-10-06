@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&family=Pixelify+Sans:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body{
+    background-color: black;
+    font-family: Pixelify Sans;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+table {
+  width: 100%;              
+  border-collapse: collapse; 
+  font-family: Pixelify Sans;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+
+th, td {
+  border: 1px solid gray;   
+  padding: 8px;        
+  text-align: left;   
+
+}
+
+th {
+  background-color: #2a005e; 
+  color: white;             
+}
+
+tr{
+  background-color: rgb(83, 82, 82);
+}

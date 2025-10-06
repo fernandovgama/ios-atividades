@@ -1,0 +1,61 @@
+body{
+    color:white;
+    background-image: url(fundo.png); background-repeat: no-repeat; 
+    background-attachment: fixed; background-size: cover;
+}
+
+h1{        
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    display: flex;        
+    justify-content: center;
+}      
+
+h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    color: gold;
+}
+
+
+div{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 650px;
+    height: 450px;
+    border: black solid 2px;
+}
+
+h3{
+    font-weight: bolder;
+    font-size: 20px;
+    display: flex;
+    justify-content:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ p{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: rgba(0, 0, 0, 0) solid 5px; width:650px;
+ }
+
+ a{
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ ul{
+    color: gold;
+    text-align: center;
+    list-style: none;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+
+    

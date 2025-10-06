@@ -1,0 +1,54 @@
+body{
+    background-image: url(capa.jpg); background-repeat: "no-repeat";
+    background-attachment: fixed; background-size: cover;
+
+    color: white;
+
+    img{
+        width: 190px;
+        height: 250px;
+        border: goldenrod solid 5px;
+    }
+
+    h1{
+        font-family: 'Courier New', Courier, monospace; 
+        text-align: center; 
+        color: goldenrod;
+    }
+
+    h2{
+        font-family: 'Courier New', Courier, monospace; 
+        font-size: medium;
+    }
+
+    h3{
+        font-family: 'Courier New', Courier, monospace; 
+        font-size: medium;
+    }
+
+    p{
+        font-family: 'Courier New', Courier, monospace; 
+        font-size: medium;
+    }
+
+    ol{
+        font-family: 'Courier New', Courier, monospace; 
+        font-size: medium;
+    }
+
+    ul{
+        font-family: 'Courier New', Courier, monospace; 
+        font-size: medium;
+    }
+
+    a{
+        color: goldenrod;
+    }
+
+    div{
+        justify-content: center;
+        display: flex;
+    }
+    
+
+}
