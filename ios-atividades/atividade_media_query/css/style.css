@@ -67,7 +67,7 @@ main {
 }
 
 .catalogo {
-    background-image: url(../assets/img/imgcatalogo.g);
+    background-image: url(../assets/img/imgcatalogo.jpg);
     background-size: cover;
     font-weight: bolder;
     text-shadow: 0 2px 6px #000000;

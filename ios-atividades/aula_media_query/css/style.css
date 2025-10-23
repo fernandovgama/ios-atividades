@@ -35,14 +35,6 @@ main{
     margin: 10px;
 }
 
-footer{
-    background-color: steelblue;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-
-
 /* Tela Média - Tablets */
 
 @media (max-width: 1024px){
