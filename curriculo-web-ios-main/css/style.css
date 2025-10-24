@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.box {
+  line-height: 1.5;
+  width: 700px;
+  background-color: white;
+  margin: 40px auto;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgb(0, 0, 0);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.subtit {
+  font-size: 20px;
+  color: gray;
+}
+
+section {
+  font-size: 17px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.tit {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.cursos {
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px
+}
+
+footer{
+  text-align: center;
+}
+ 
