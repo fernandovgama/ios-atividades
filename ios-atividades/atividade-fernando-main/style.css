@@ -1,0 +1,80 @@
+body{
+    color: white;
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div{
+    justify-content: center;
+    display: flex;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.area{
+    background-color: rgba(61, 60, 60, 0.384);
+    border: goldenrod 2px solid;
+    width: 450px;
+    height: 350px;
+    justify-content: left;
+    align-items: left;
+    margin: auto;
+}
+
+.nome{
+    color: gold;
+    display: block;
+    justify-content: right;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.inputnome{
+    background-color: black;
+    color: white;
+    width: 400px;
+}
+
+.email{
+    color: gold;
+    justify-content: right;
+    display: block;
+    margin-left: 15px;
+}
+
+.inputemail{
+    background-color: black;
+    color: white;
+    width: 400px;
+}
+
+.checkbox{
+    color: gold;
+    justify-content: left;
+    margin-top: 15px;
+    margin-left: 15px;
+    display: block;
+}
+
+.enviar{
+    justify-content: right;
+}
+
+.inputenviar{
+    background-color: green;
+    width: 100px;
+    margin: 15px;
+}
