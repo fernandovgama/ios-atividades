@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color:#12102f;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /*viewport height*/
+}
+
+/* _____Cabeçalho_____ */
+
+.header{
+    background-color:#0c0b1f ;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /*quebra de linha dentro de um determinado espaço*/
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu a{ 
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+.menu a:hover{
+    color: gray;
+}
+
+/* _____Corpo Principal_____ */
+
+.main-container{
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* _____Conteúdo_____ */
+
+.content{
+    background-color:#0c0b1f ;
+    flex: 3;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* _____Card dentro do contéudo_____ */
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card{
+    flex: 1 1 30%;
+    background-color: #282738 ;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 6px black;
+    transition: transform 0.2s;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+/* _____Barra Lateral_____ */
+
+.sidebar{
+    flex: 1;
+    background-color: #282738;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 250px;
+    height: fit-content;
+}
+.sidebar ul{
+    text-decoration: none;
+    padding-top: 10px;
+
+}
+
+.sidebar li{
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.sidebar a{
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar a:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    background-color: #0c0b1f ;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px){
+    .main-container{
+        flex-direction: column;
+    }
+
+    .cards{
+        flex-direction: column;
+    }
+
+    .cards{
+        flex: 1 1 100%;
+    }
+}
+
+
+
