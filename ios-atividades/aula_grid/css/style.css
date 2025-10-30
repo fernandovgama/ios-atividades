@@ -1,0 +1,89 @@
+/* _____Estilos Gerais_____*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: dimgrey;
+    color: black;
+}
+
+header,
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+header,
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* _____item do grid_____ */
+
+.item {
+    background-color: crimson;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 8px;
+
+    /* _____centralizandoo texto dentro da célula_____ */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 5px black;
+}
+
+/* _____grid principal_____ */
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    /*divide as colunas em tamanhos proporcionais*/
+    grid-template-rows: 150px 150px;
+    /*separação das linhas*/
+    gap: 15px;
+    padding: 20px;
+    background-color: darkslategrey;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 20px;
+}
+
+.item1 {
+    background-color: chartreuse;
+}
+
+.item2 {
+    background-color: darkgoldenrod;
+}
+
+.item3 {
+    background-color: blueviolet;
+}
+
+.item4 {
+    background-color: darkorange;
+}
+
+.item4 {
+    background-color: darkred;
+}
+
+.item5 {
+    background-color: hotpink;
+}
+
+.item6 {
+    background-color: blue;
+}
+
+footer{
+    margin-top: 20px auto;
+    font-size: 1em;
+    padding: 20px 0;
+}
