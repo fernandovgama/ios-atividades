@@ -201,6 +201,11 @@ footer::before{
     align-items: center;
   }
 
+  #pesquisa {
+    width: 500px;
+    margin: 10px 0;
+  }
+
   .menu a {
     display: inline-block;
     margin: 5px;
