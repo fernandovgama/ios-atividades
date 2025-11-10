@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: midnightblue;
+    color: white;
+}
+
+.container{
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:  0 0 70px;
+}
+
+h1{
+    color: white;    
+}
+
+p{
+    color: greenyellow;
+    font-size: 1.2em;
+}
+
+.saudacao{
+    font-size: 1.2em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: orange;
+    margin-top: 10px;
+}
+
+button{
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px white solid;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover{
+    background-color: darkred;
+    box-shadow: 0 0 20px orangered;
+}
